@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # carregar o modelo 
-model = YOLO('data/best.pt')
+model = YOLO('data/best2.pt')
 
 # inicializar câmera
 cam = cv2.VideoCapture(1)
