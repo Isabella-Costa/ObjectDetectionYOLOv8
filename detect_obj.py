@@ -2,10 +2,10 @@ import cv2
 from ultralytics import YOLO
 
 # carregar o modelo 
-model = YOLO('data/best2.pt')
+model = YOLO('data/best3.pt')
 
 # inicializar câmera
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 
 if cam.isOpened(): 
     sucess, frame = cam.read()
