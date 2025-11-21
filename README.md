@@ -1,6 +1,7 @@
 ## Detecção de Objetos: Caderno, Xícara e Piloto com YOLOv8
 
 ✨ Introdução ao Projeto
+
 Este repositório contém o código-fonte e o modelo treinado para um projeto de Visão Computacional focado na Detecção de Objetos em Tempo Real utilizando a arquitetura YOLOv8 (You Only Look Once, versão 8).
 
 O objetivo do projeto foi realizar o Fine-Tuning de um modelo YOLOv8 pré-treinado para reconhecer e localizar três classes específicas:
