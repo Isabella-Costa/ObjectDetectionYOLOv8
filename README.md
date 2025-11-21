@@ -22,7 +22,7 @@ Primeiro, clone este repositório para o seu sistema local usando o Git:
 
 ```Bash
 
-git clone [https://docs.github.com/pt/repositories/https://github.com/Isabella-Costa/ObjectDetectionYOLOv8.git
+git clone https://docs.github.com/pt/repositories/https://github.com/Isabella-Costa/ObjectDetectionYOLOv8.git
 cd [Nome da Pasta Clonada]
 ```
 
