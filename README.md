@@ -8,8 +8,6 @@ O objetivo do projeto foi realizar o Fine-Tuning de um modelo YOLOv8 pré-treina
 * 📘 Caderno
 * ☕ Xícara
 * 🖊️ Piloto de Quadro
-
-O modelo foi treinado em um dataset customizado e agora é capaz de identificar esses objetos em frames de vídeo ao vivo (webcam).
 ---
 ## Como Executar o Projeto
 Siga os passos abaixo.
