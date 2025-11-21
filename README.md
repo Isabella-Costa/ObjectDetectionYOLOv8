@@ -11,7 +11,6 @@ O objetivo do projeto foi realizar o Fine-Tuning de um modelo YOLOv8 pré-treina
 * 🖊️ Piloto de Quadro
 ---
 ## Como Executar o Projeto
-Siga os passos abaixo.
 
 ### 1. Pré-requisitos
 Certifique-se de ter instalado:
@@ -28,7 +27,7 @@ cd [Nome da Pasta Clonada]
 ```
 
 ### 4. Criar e Ativar o Ambiente Virtual
-É altamente recomendado criar um ambiente virtual para isolar as dependências:
+É recomendado criar um ambiente virtual para isolar as dependências:
 
 Criar o ambiente:
 
