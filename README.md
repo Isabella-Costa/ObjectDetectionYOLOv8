@@ -5,9 +5,9 @@ Este repositório contém o código-fonte e o modelo treinado para um projeto de
 
 O objetivo do projeto foi realizar o Fine-Tuning de um modelo YOLOv8 pré-treinado para reconhecer e localizar três classes específicas:
 
-*📘 Caderno
-*☕ Xícara
-*🖊️ Piloto de Quadro
+* 📘 Caderno
+* ☕ Xícara
+* 🖊️ Piloto de Quadro
 
 O modelo foi treinado em um dataset customizado e agora é capaz de identificar esses objetos em frames de vídeo ao vivo (webcam).
 ---
@@ -16,8 +16,8 @@ Siga os passos abaixo.
 
 ### 1. Pré-requisitos
 Certifique-se de ter instalado:
-*Python 3.8+
-*Git
+* Python 3.8+
+* Git
 
 ### 2. Clonar o Repositório
 Primeiro, clone este repositório para o seu sistema local usando o Git:
@@ -52,16 +52,5 @@ pip install -r requirements.txt
 O arquivo principal, detect_camera.py (ou o nome do seu script), irá carregar o modelo treinado e iniciar a captura de vídeo pela sua webcam.
 ```bash
 python detect_camera.py
-Uma janela pop-up se abrirá, mostrando a detecção de objetos em tempo real. Pressione a tecla 'q' para fechar a janela.
 ```
----
-## ⚙️ Estrutura do Repositório
-O projeto está organizado da seguinte forma:
-
-/nome-do-seu-projeto/
-├── model/
-│   └── best.pt             <- ARQUIVO DE PESO TREINADO 
-├── detect_camera.py        <- Script principal de detecção
-├── .gitignore              <- Arquivos ignorados (venv/, *.pt, runs/)
-├── README.md               <- Este arquivo
-└── requirements.txt        <- Lista de dependências
+Uma janela pop-up se abrirá, mostrando a detecção de objetos em tempo real. Pressione a tecla 'q' para fechar a janela.
