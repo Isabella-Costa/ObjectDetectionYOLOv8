@@ -6,7 +6,7 @@ pTime = 0 # Variável para armazenar o tempo anterior (para cálculo de FPS)
 
 try:
     model = YOLO('data/best4.pt')
-    #model.to('cuda') # usa GPU 
+    model.to('cuda') # usa GPU 
 except Exception as e:
     print(f"Erro ao carregar o modelo YOLO: {e}")
     exit()
@@ -24,7 +24,7 @@ while True:
         break
 
     # verbose=False para suprimir a saída do terminal a cada inferência
-    results = model.predict(frame, imgsz=800, half=True, verbose=False)
+    results = model.predict(frame, imgsz=640, half=True, verbose=False) 
 
     annotated_frame = results[0].plot()
 
